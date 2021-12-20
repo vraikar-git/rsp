@@ -10,7 +10,7 @@ function play(playerSelection, computerSelection) {
     //console.assert(typeof (playerSelection) == "string" && typeof (computerSelection) == "string")
     //playerSelection = playerSelection.toLowerCase();
     //computerSelection = computerSelection.toLowerCase();
-    console.log(computerSelection);
+    //console.log(computerSelection);
     if (playerSelection === computerSelection) {
         console.log("Tie : Both selected same");
         return("Tie : Both selected same");
@@ -39,10 +39,10 @@ function game(){
     
     while(true){
     let selection = prompt("Enter Selection").toLowerCase();
-    console.log(selection)
     
-    if(selection != "paper" && selection != "rock" && selection != "scissors"){
+    if(selection !== "paper" && selection !== "rock" && selection !== "scissors"){
         alert("Game abort : please enter valid selection");
+        return;
         
     }
     let result = play(selection,computerPlay());
