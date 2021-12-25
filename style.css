@@ -1,0 +1,118 @@
+html {
+    height: 100%;
+    
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    align-items: center;
+    background-color: aliceblue;
+    
+}
+
+.container{
+    width: 100%;
+}
+
+.header {
+    font-size: medium;
+    padding: 20px 20px;
+    border: 5px solid red;
+    background-color: rgb(206, 255, 239);
+    text-align: center;
+}
+
+.button-bar {
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    padding: 25px;
+    
+}
+
+.button-bar button{
+    border-radius: 20px;
+    width: 150px;
+    height: 150px;
+    background-color: chocolate;
+    font-family:Verdana, Geneva, sans-serif;
+    cursor: pointer;
+}
+
+.reset-button {
+    text-align: center;
+    padding: 30px;
+}
+
+.reset-button button {
+    border-radius: 8px;
+    background-color: red;
+    padding: 10px;
+}
+.bottom {
+    text-align: center;
+}
+
+.result {
+    display: flex;
+    
+}
+
+.result div {
+    flex:1;
+}
+
+.pc {
+    display: flex;
+    justify-content: center;
+}
+
+.pc div {
+    flex: 1;
+    text-align: center;
+}
+
+
+
+
+
+
+
+/* html {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    height: 100%;
+
+    
+}
+
+#main {
+    flex: 1 1 auto;
+    width: 100%;
+    
+}
+
+#side-bar {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: rgba(238, 183, 173, 0.575);
+    padding: 10px;
+}
+
+.choice {
+    display: block;
+}
+
+#screen {
+    border: red solid 2px;
+    height: 200px;
+    text-align: center;
+    padding: 30px;
+    
+} */
