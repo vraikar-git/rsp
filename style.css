@@ -74,6 +74,12 @@ body {
     text-align: center;
 }
 
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+}
+
 
 
 
